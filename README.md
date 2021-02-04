@@ -10,7 +10,7 @@ Built with Java 8, Spring Boot 2, Gradle and Lombok.
 
 **Get call to return info about a client that was retrieved from other two microservices.**
 
-**Those calls were executed using RestTemplate in a synchronous way taking 20 seconds to complete the request: **
+**Those calls were executed using RestTemplate in a synchronous way taking 20 seconds to complete the request:**
 
 ![Screenshot SynchronousCall](screenshots/synchronous-call.png)
 

@@ -8,11 +8,19 @@ Built with Java 8, Spring Boot 2, Gradle and Lombok.
 
 --------------------------------------------------------------------------------------------
 
-**Get call to return info about a client that was retrieved from other two microservices.**
+**Call to return info about a client that was retrieved from other two microservices,** 
+**each of those microservices return a response in 10 seconds.**
 
-**Those calls were executed using RestTemplate in a synchronous way taking 20 seconds to complete the request:**
+**Those calls were executed in a synchronous way taking 20 seconds to complete the request:**
 
 ![Screenshot SynchronousCall](screenshots/synchronous-call.png)
 
+ --------------------------------------------------------------------------------------------
+ 
+ **Same thing done with Reactive Programming using CompletableFuture, but just take 10 seconds:**
+
+![Screenshot RectiveCall](screenshots/reactive-call.png)
 
  --------------------------------------------------------------------------------------------
+ 
+ 
